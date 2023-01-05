@@ -1,0 +1,43 @@
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+  body {
+    background: transparent !important;
+  }
+  
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
+  .search-result-box .tab-content {
+    padding: 30px 30px 10px 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none
+}
+
+.search-result-box .search-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3eaef;
+    margin-bottom: 20px
+}
