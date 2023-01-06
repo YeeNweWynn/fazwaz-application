@@ -20,4 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/list',[PropertyController::class, 'index']);
+Route::get('global_search/{search}', [PropertyController::class, 'globalSearch']);
+
 

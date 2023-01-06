@@ -13,18 +13,16 @@
     margin-bottom: 2rem;
   }
   
-  .btn {
-    border: 5px solid;
+  .custom-btn {
+    border: 1px solid;
     border-image-slice: 1;
-    background: var(--gradient) !important;
     
     text-decoration: none;
     transition: all .4s ease;
   }
   
-  .btn:hover, .btn:focus {
-        background: var(--gradient) !important;
-    border: 5px solid #fff !important; 
+  .custom-btn:hover, .custom-btn:focus {
+    border: 1px solid #fff !important; 
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
   }
@@ -41,3 +39,10 @@
     border-bottom: 1px solid #e3eaef;
     margin-bottom: 20px
 }
+
+.VuePagination {
+  display: flex;
+  justify-content: center;
+}
+
+
