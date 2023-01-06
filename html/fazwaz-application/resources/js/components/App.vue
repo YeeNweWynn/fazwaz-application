@@ -6,7 +6,6 @@
               <div class="row">
                     <div class="col-md-8 offset-md-2">
                         <div class="pt-3 pb-4">
-                            
                               <div class="input-group">
                                   <input type="text" id="" name="" class="form-control" v-model="keywords">
                                   <div class="input-group-append">
@@ -53,6 +52,5 @@
                 .catch(error => {});
       },
     }
-   
   }
 </script>

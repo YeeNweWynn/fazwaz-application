@@ -20,8 +20,6 @@ class PropertyController extends Controller
         else {
            $result = Property::all();
         }
-
-        //dd($result);
         return response()->json($result);
         
     }
